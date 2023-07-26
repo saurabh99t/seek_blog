@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+/* --------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #87CBB9;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+/* ... Previous styles ... */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+}
+
+
+
+.form-container {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.return-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ... Previous styles ... */
+
+.return-form-section form {
+    /* ... Previous styles ... */
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+
+
+/* Center the form */
+.return-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the form inputs */
+.return-form-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 1rem;
+}
+
+.return-form-section form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.return-form-section form label {
+    font-weight: bold;
+}
+
+.return-form-section form input,
+.return-form-section form textarea {
+    padding: 0.5rem;
+    font-size: 16px;
+}
+
+.return-form-section form textarea {
+    resize: vertical;
+}
+
+.return-form-section form button {
+    padding: 0.75rem 1rem;
+    font-size: 16px;
+    background-color: #87CBB9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+   
+}
+
+
+form input , textarea{
+    width: 40vw;
+}
+
+
+
+form textarea{
+    height: 150px;
+}
+
+
+
+
+.footer {
+    /* ... Previous styles ... */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.section-2 a{
+text-decoration: underline red;
+color: black;
+}
+
+
+/* ... Previous styles ... */
+
+/* Responsive adjustments */
+
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+@media (max-width: 800px) {
+    .card-heading h3 {
+font-size: 0.6rem;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+}
+
+
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 1rem;
+    }
+
+    .return-form-section form {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 450px) {
+    
+    form input, textarea {
+        width: 100%;
+    }
+
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 360px) {
+    
+}
+
+
+
+
+
+
+/* ------------------ */
+
+
+
+.section-2{
+
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .section-2 {
+        width: 80vw;
+      }
+}
